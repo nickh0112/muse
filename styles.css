@@ -715,7 +715,31 @@ img {
 .waitlist-subtext {
     font-size: 1.0625rem;
     line-height: 1.7;
+    margin-bottom: var(--space-md);
+}
+
+/* Waitlist Counter */
+.waitlist-counter {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
     margin-bottom: var(--space-lg);
+    padding: var(--space-sm) 0;
+}
+
+.counter-number {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--color-burgundy);
+    line-height: 1;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.counter-label {
+    font-size: 0.875rem;
+    color: var(--color-warm-gray);
+    letter-spacing: 0.02em;
 }
 
 .waitlist-form {
